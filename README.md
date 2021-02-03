@@ -26,3 +26,5 @@ export default App;`}
 ```
 
 You can see the Lisker Generator in action in the [Lisker Blockchain Demo](http://demo.lisker.io/lisker)
+
+For more documentation about Lisker, check [Lisker](https://lisker.io)
