@@ -15,7 +15,7 @@ const Preview = ({
   const [lisker, setLisker] = useState("");
 
   useEffect(() => {
-    // let's build the Lisker, order is important. Output file is a base64 endcoded SVG.
+    // let's build the Lisker, order is important. Output file is a base64 encoded SVG.
     const go = "<g clip-path='url(#circleMask)' id='"; // group open tag + id start
     const gc = "</g>"; // group close tag
 
