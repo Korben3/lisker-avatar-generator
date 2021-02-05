@@ -117,6 +117,7 @@ const LiskerGenerator = ({ getLiskerId, setLiskerId }) => {
         colorBackground={colorBackground}
         changeVariant={changeVariant}
         getLiskerId={getLiskerId}
+        typeSelected={typeSelected}
       />
       <Colors changeColor={changeColor} typeSelected={typeSelected} />
     </div>
