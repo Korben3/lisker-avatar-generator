@@ -10,6 +10,7 @@ const Preview = ({
   colorSkin,
   changeVariant,
   getLiskerId,
+  typeSelected,
 }) => {
   const [lisker, setLisker] = useState("");
 
@@ -87,7 +88,9 @@ const Preview = ({
     <div className="containerLisker">
       <div
         id="buttonPrevious"
-        className="buttonsArrow"
+        className={`buttonsArrow ${
+          typeSelected === 12 ? "buttonsArrowHidden" : ""
+        }`}
         onClick={() => changeVariant(-1)}
       >
         &#x25C0;&#xFE0E;
@@ -101,7 +104,9 @@ const Preview = ({
       </div>
       <div
         id="buttonNext"
-        className="buttonsArrow"
+        className={`buttonsArrow ${
+          typeSelected === 12 ? "buttonsArrowHidden" : ""
+        }`}
         onClick={() => changeVariant(1)}
       >
         &#x25B6;&#xFE0E;
