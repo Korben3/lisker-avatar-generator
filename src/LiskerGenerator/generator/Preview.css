@@ -10,6 +10,12 @@
 .buttonsArrow:hover {
   cursor: pointer;
 }
+.buttonsArrowHidden {
+  color: white;
+}
+.buttonsArrowHidden:hover {
+  cursor: default;
+}
 
 .tinyFont {
   font-size: 0.8rem;
