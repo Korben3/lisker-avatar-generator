@@ -28,3 +28,20 @@ export default App;`}
 You can see the Lisker Generator in action in the [Lisker Blockchain Demo](http://demo.lisker.io/lisker)
 
 For more information about Lisker, check the official website [Lisker.io](https://lisker.io)
+
+### Prerequisites
+
+- Node.js
+
+### Installation
+
+```
+git clone https://github.com/Korben3/lisker-avatar-generator
+cd lisker-avatar-generator
+npm install
+```
+
+### Run
+
+In the client directory run: `npm start`
+
